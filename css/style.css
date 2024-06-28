@@ -1,0 +1,192 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@400;700&family=Ubuntu&display=swap");
+
+
+/*  */
+
+#title{
+  background-image: url("../images/titlebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 4.5rem;
+  /* line-height: 1.5; */
+  font-weight: 700;
+}
+
+
+.container-fluid {
+  padding: 0% 3%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 10px 0;
+  
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000071;
+}
+
+.navbar-brand:hover {
+  color: #000050;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #000099;
+}
+
+
+.homepagetitle{
+  color: #000071;
+  /* text-shadow: -1px 1px 2px blue; */
+}
+
+/* Features section */
+
+#services {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #000071;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0000b0;
+}
+
+/* Testimonials */
+
+#feedback {
+  background-color: #DDF4FC;
+  color: #000099;
+  padding: 7% 15%;
+  text-align: center;
+  
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.cicon{
+  color: #000071;
+}
+
+#press {
+  background-color: #DDF4FC;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+
+.footer_section {
+  width: 100%;
+  float: right;
+  background-color: #BED1E6;
+  height: auto;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer_logo {
+  width: 80%;
+  float: left;
+  padding: 0px 0px 30px 0px;
+}
+
+.adderss_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #0d0d0d;
+  padding: 30px 0px;
+
+}
+
+.map_icon {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #0d0d0d;
+  padding-bottom: 10px;
+}
+
+
+/* Pricing section */
+
+#patientm {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+.patienta{
+  text-decoration: none;
+}
+
+.patienta {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0000ff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.patienta:hover {
+  background: #0000b0;
+  text-decoration: none;
+}
+

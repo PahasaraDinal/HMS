@@ -1,0 +1,113 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@400;700&family=Ubuntu&display=swap");
+
+/*  */
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 4.5rem;
+  /* line-height: 1.5; */
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.5rem;
+  /* line-height: 1.5; */
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2rem;
+  /* line-height: 1.5; */
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.8rem;
+  /* line-height: 1.5; */
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding: 0% 3%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000071;
+}
+
+.navbar-brand:hover {
+  color: #000050;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0000a1;
+}
+
+.nav-link:hover {
+  color: #000071;
+}
+
+#patientmanagement,
+#staffmanagement,
+#viewdoctors,
+#manageall,
+#setavailabledoctor {
+  padding: 80px 60px 0px;
+  text-align: center;
+}
+
+#addpatient,
+#adddoctor,
+#addstaff,
+#roomassign {
+  padding: 80px 60px 0px;
+}
+
+.patient-coloumn {
+  padding: 3% 2%;
+}
+
+.btn-patient {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000080;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-patient:hover {
+  background: #000051;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #ddf4fc;
+}
